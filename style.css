@@ -74,19 +74,19 @@
   
   /* Change the color on hover */
   .topnav a:hover {
-    background-color: none;
+    background-color: #6e6b6b;
     color: none;
   }
 
- /* .introduce{
+  .introduce{
     font-family: Inconsolata;
+    font-size: 20px;
     color: white;
     text-align: center;
-    right: 0;
-    left: 0;
-    margin: -30px
+    margin: 10px -90px;
+    float: right;
   }
-  */
+  
 
   p{
     color: #808080;
@@ -102,26 +102,14 @@
     right: 110px;
   }
 
-  .col1{
-    float: left;
-    width: 75%;
-
-  }
-  
+ 
   /* Create two columns that floats next to each other */
   /* Left column */
-  .leftcolumn {   
-    float: left;
-    width: 75%;
+  .col {   
+    float: none;
+    width: 81%;
   }
   
-  /* Right column */
- /* .rightcolumn {
-    float: left;
-    width: 25%;
-    background-color: none;
-    padding-left: 20px;
-  }*/
   
   /* album images */
   .albumimg {
@@ -162,13 +150,28 @@
  
   
   /* Clear floats after the columns */
-  .row:after {
+  /*.row:after {
     content: "";
     display: table;
     clear: both;
     position: relative
+  }*/
+
+  .row1 {
+    overflow: hidden;
+    margin: -18px;
+    background-color: #D3D3D3;
+
   }
   
+  .row2 {
+    overflow: hidden;
+    padding: 70px;
+    width: 134%;
+    margin: 0px;
+    background-color: orange;
+
+  }
   
   .linke, a:link{
     color: rgb(232,243,251,0.76);
@@ -181,7 +184,7 @@
     float: left;
     display: inline-block;
     margin-left: -18px;
-    width: 1280px;
+    width: 1302px;
   }
    
   .finalpagina{
