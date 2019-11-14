@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: none;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+  }
+  
+  /* Header/Site Title */
+  .header {
+    padding: 200px;
+    margin: -18px;
+    text-align: center;
+    background-image: url(imagem/foto.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    font-family: Lora;
+    color: white;
+    margin-top: -80px;
+  }
+  h2{
+    font-size: 40px;
+    font-family: Lora;
+    color: #808080;
+    right: 20%;
+    margin-top: 140px;
+    position: absolute;
+    display: inline-block;
+
+  }
+  h3{
+    font-size: 20px;
+    color: white;
+    line-height: 0.2;
+  }
+
+  /* Style to the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    color: white;
+    left: 0;
+    right: 0;
+    background: #1c1c1c;
+    top: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+
+  }
+  
+  /* Style to the topnav links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    right: 0;
+    margin-left: 80px;
+    width: 150px;
+  }
+  
+  /* Change the color on hover */
+  .topnav a:hover {
+    background-color: none;
+    color: none;
+  }
+
+ /* .introduce{
+    font-family: Inconsolata;
+    color: white;
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin: -30px
+  }
+  */
+
+  p{
+    color: #808080;
+  }
+
+  .primeirotexto{
+    font-family: Inconsolata;
+    color: #808080;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    margin: 100px 0 20px auto;
+    right: 110px;
+  }
+
+  .col1{
+    float: left;
+    width: 75%;
+
+  }
+  
+  /* Create two columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+ /* .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: none;
+    padding-left: 20px;
+  }*/
+  
+  /* album images */
+  .albumimg {
+    background-color: none;
+    width: 89%;
+    margin-top: -100px;
+    padding: 20px;
+    color: white;
+    
+  }
+
+  /* album Populares */
+  .albumpopulares {
+    background-color:none;
+    width: 90%;
+    margin-top: 0;
+    padding: 20px;
+    color: white;
+    
+  }
+
+   /* image about */
+   .aboutimg {
+    background-color: none;
+    width: 50%;
+    margin-top: -60px;
+    margin-left: 80px;
+    padding: 20px;;
+    color: white;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color:none;
+    padding: 20px;
+    margin-top: 20px;
+  }
+ 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    position: relative
+  }
+  
+  
+  .linke, a:link{
+    color: rgb(232,243,251,0.76);
+  }
+
+  /* Footer */
+  .footer {
+    padding: 70px;
+    background: #1c1c1c;
+    float: left;
+    display: inline-block;
+    margin-left: -18px;
+    width: 1280px;
+  }
+   
+  .finalpagina{
+    
+    text-align: center;
+    
+  }
+
+
+  /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
