@@ -4,12 +4,6 @@
   
   body {
     font-family: Arial;
-    padding: 10px;
-    background: none;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    
   }
   
   /* Header/Site Title */
@@ -36,27 +30,24 @@
     right: 20%;
     margin-top: 140px;
     position: absolute;
-    display: inline-block;
 
   }
   h3{
     font-size: 20px;
     color: white;
-    line-height: 0.2;
+    text-align: center;
   }
 
   /* Style to the top navigation bar */
   .topnav {
-    overflow: hidden;
     color: white;
     left: 0;
     right: 0;
     background: #1c1c1c;
     top: auto;
     position: absolute;
-    right: 0;
+    right: -10px;
     left: 0;
-
   }
   
   /* Style to the topnav links */
@@ -84,7 +75,6 @@
     color: white;
     text-align: center;
     margin: 10px -90px;
-    float: right;
   }
   
 
@@ -99,15 +89,26 @@
     position: absolute;
     display: inline-block;
     margin: 100px 0 20px auto;
-    right: 110px;
+    right: 10%;
   }
 
  
   /* Create two columns that floats next to each other */
   /* Left column */
-  .col {   
+  .col1 {   
     float: none;
-    width: 81%;
+    width: 100%;
+    
+  }
+  .col2 {   
+    float: none;
+    width: 100%;
+    
+  }
+  .col3 {   
+    float: none;
+    width: 100%;
+    margin-top: 0px;
   }
   
   
@@ -133,19 +134,16 @@
 
    /* image about */
    .aboutimg {
-    background-color: none;
-    width: 50%;
-    margin-top: -60px;
-    margin-left: 80px;
-    padding: 20px;;
-    color: white;
+    width: 35%;
+    margin-top: -70px;
+    margin-left: 100px;
+    padding: 20px;
   }
   
   /* Add a card effect for articles */
   .card {
     background-color:none;
     padding: 20px;
-    margin-top: 20px;
   }
  
   
@@ -167,45 +165,55 @@
   .row2 {
     overflow: hidden;
     padding: 70px;
-    width: 134%;
-    margin: 0px;
     background-color: orange;
 
   }
+
+  .row3 {
+    overflow: hidden;
+    background-color: #D3D3D3;
+
+  }
   
-  .linke, a:link{
+  a:link{
     color: rgb(232,243,251,0.76);
   }
 
+  .linke {
+    color: rgb(232,243,251,0.76);
+    padding: 5px;
+    overflow: hidden;
+    margin: 47%;
+  }
+
   /* Footer */
-  .footer {
+  .footer span {
     padding: 70px;
     background: #1c1c1c;
-    float: left;
     display: inline-block;
-    margin-left: -18px;
-    width: 1302px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    text-align: center
   }
    
-  .finalpagina{
-    
-    text-align: center;
-    
-  }
 
-
-  /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-      width: 100%;
+  
+  /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
+  @media screen and (max-width: 365px) {
+    .col,.topnav {   
+      width: 85%;
       padding: 0;
+      
     }
   }
   
-  /* Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other */
+  /* Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other 
   @media screen and (max-width: 400px) {
     .topnav a {
       float: none;
       width: 100%;
-    }
-  }
+   
+   }
+  }*/
+  
