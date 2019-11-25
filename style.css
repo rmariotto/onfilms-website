@@ -82,7 +82,7 @@
     color: #808080;
   }
 
-  .primeirotexto{
+  .firsttext{
     font-family: Inconsolata;
     color: #808080;
     text-align: center;
@@ -140,15 +140,6 @@
     padding: 20px;
   }
   
- 
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    position: relative
-  }
-
  .fb-page{
   margin-left: 40%;
 
