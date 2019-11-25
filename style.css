@@ -155,8 +155,13 @@
     width: 100%;
     text-align: center;
     color: white;
+    text-decoration: none;
   }
    
+  .footer a {
+    text-decoration:none;
+    color: rgba(211,219,222,1);
+  }
 
   
   /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
