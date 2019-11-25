@@ -4,12 +4,12 @@
   
   body {
     font-family: Arial;
+    margin: 0px;
   }
   
   /* Header/Site Title */
   .header {
-    padding: 200px;
-    margin: -18px;
+    padding: 280px;
     text-align: center;
     background-image: url(imagem/foto.jpg);
     background-attachment: fixed;
@@ -41,13 +41,13 @@
   /* Style to the top navigation bar */
   .topnav {
     color: white;
-    left: 0;
-    right: 0;
     background: #1c1c1c;
     top: auto;
     position: absolute;
-    right: -10px;
     left: 0;
+    right: 0;
+    padding: 10px;
+    
   }
   
   /* Style to the topnav links */
@@ -92,26 +92,26 @@
     right: 10%;
   }
 
- 
-  /* Create two columns that floats next to each other */
-  /* Left column */
-  .col1 {   
-    float: none;
-    width: 100%;
-    
+  .content-wrap{
+    overflow: hidden;
+    background-color: #D3D3D3;
+    background-color:none;
+    padding: 20px;
   }
-  .col2 {   
-    float: none;
-    width: 100%;
-    
-  }
-  .col3 {   
-    float: none;
-    width: 100%;
-    margin-top: 0px;
+
+  .objective{
+    overflow: hidden;
+    padding: 70px;
+    background-color: orange;
   }
   
-  
+  .socialmedia{
+    overflow: hidden;
+    background-color: #D3D3D3;
+    padding: 80px;
+  }
+
+
   /* album images */
   .albumimg {
     background-color: none;
@@ -140,50 +140,23 @@
     padding: 20px;
   }
   
-  /* Add a card effect for articles */
-  .card {
-    background-color:none;
-    padding: 20px;
-  }
  
-  
   /* Clear floats after the columns */
-  /*.row:after {
+  .row:after {
     content: "";
     display: table;
     clear: both;
     position: relative
-  }*/
-
-  .row1 {
-    overflow: hidden;
-    margin: -18px;
-    background-color: #D3D3D3;
-
-  }
-  
-  .row2 {
-    overflow: hidden;
-    padding: 70px;
-    background-color: orange;
-
   }
 
-  .row3 {
-    overflow: hidden;
-    background-color: #D3D3D3;
 
-  }
-  
   a:link{
     color: rgb(232,243,251,0.76);
   }
 
   .linke {
     color: rgb(232,243,251,0.76);
-    padding: 5px;
-    overflow: hidden;
-    margin: 47%;
+    
   }
 
   /* Footer */
@@ -191,8 +164,6 @@
     padding: 70px;
     background: #1c1c1c;
     display: inline-block;
-    position: absolute;
-    left: 0px;
     width: 100%;
     text-align: center
   }
