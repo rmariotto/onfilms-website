@@ -102,12 +102,12 @@
   .objective{
     overflow: hidden;
     padding: 70px;
-    background-color: orange;
+    background-color:rgba(75,98,102,1);
   }
   
   .socialmedia{
     overflow: hidden;
-    background-color: #D3D3D3;
+    background-color: rgba(214,217,218,1);
     padding: 80px;
   }
 
@@ -149,15 +149,10 @@
     position: relative
   }
 
+ .fb-page{
+  margin-left: 40%;
 
-  a:link{
-    color: rgb(232,243,251,0.76);
-  }
-
-  .linke {
-    color: rgb(232,243,251,0.76);
-    
-  }
+ }
 
   /* Footer */
   .footer span {
