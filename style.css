@@ -26,10 +26,8 @@
     font-size: 40px;
     font-family: Lora;
     color: #808080;
-    right: 20%;
-    margin-top: 140px;
-    position: absolute;
-
+    text-align: center;
+    margin-top: 100px;
   }
   h3{
     font-size: 20px;
@@ -42,10 +40,11 @@
     color: white;
     background: #1c1c1c;
     top: auto;
-    position: absolute;
     left: 0;
     right: 0;
     padding: 10px;
+    width: 100%;
+    height: 60px;
     
   }
   
@@ -73,7 +72,6 @@
     font-size: 20px;
     color: white;
     text-align: center;
-    margin: 10px -90px;
   }
   
 
@@ -84,18 +82,24 @@
   .firsttext{
     font-family: Inconsolata;
     color: #808080;
-    text-align: center;
-    position: absolute;
-    display: inline-block;
-    margin: 100px 0 20px auto;
-    right: 10%;
+    
   }
 
   .content-wrap{
-    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 500px;
     background-color: #D3D3D3;
     background-color:none;
-    padding: 20px;
+    padding: 0px;
+  }
+
+  .content-wrap > div:first-child {
+    float: left;
+  }
+
+  .content-wrap > div:last-child {
+    float: right;
   }
 
   .objective{
@@ -117,16 +121,6 @@
   }
 
 
-  /* album images */
-  .albumimg {
-    background-color: none;
-    width: 89%;
-    margin-top: -100px;
-    padding: 20px;
-    color: white;
-    
-  }
-
   /* album Populares */
   .albumpopulares {
     background-color:none;
@@ -139,10 +133,16 @@
 
    /* image about */
    .aboutimg {
-    width: 35%;
-    margin-top: -70px;
-    margin-left: 100px;
-    padding: 20px;
+    height: 400px;
+    margin: 50px 130px 50px;
+  }
+
+  
+  @media screen and  (max-width: 800px) {
+    .aboutimg {
+    height: 200px;
+    margin: 50px 80px 50px;
+    }
   }
   
 
@@ -163,7 +163,8 @@
   }
 
   
-  /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
+  
+ /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
   @media screen (max-width: 800px) {
 
 
@@ -171,12 +172,12 @@
 
 
   
-  /* Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other 
+  Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other 
   @media screen and (max-width: 400px) {
     .topnav a {
       float: none;
       width: 100%;
    
    }
-  }*/
+  }
   
