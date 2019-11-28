@@ -9,7 +9,7 @@
   
   /* Header/Site Title */
   .header {
-    padding: 280px;
+    padding: 230px;
     text-align: center;
     background-image: url(imagem/foto.jpg);
     background-attachment: fixed;
@@ -21,7 +21,6 @@
     font-size: 50px;
     font-family: Lora;
     color: white;
-    margin-top: -80px;
   }
   h2{
     font-size: 40px;
@@ -165,13 +164,12 @@
 
   
   /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
-  @media screen and (max-width: 365px) {
-    .col,.topnav {   
-      width: 85%;
-      padding: 0;
-      
-    }
+  @media screen (max-width: 800px) {
+
+
   }
+
+
   
   /* Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other 
   @media screen and (max-width: 400px) {
