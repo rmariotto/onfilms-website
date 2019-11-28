@@ -1,177 +1,153 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial;
-    margin: 0px;
-  }
-  
-  /* Header/Site Title */
-  .header {
-    padding: 280px;
-    text-align: center;
+    color: #808080;
+    margin: 0;
     background-image: url(imagem/foto.jpg);
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
-  }
-  
-  .header h1 {
+}
+
+/* Header/Site Title */
+
+.header {
+    padding: 150px 0 200px 0;
+    text-align: center;
+}
+
+.header h1 {
     font-size: 50px;
     font-family: Lora;
     color: white;
-    margin-top: -80px;
-  }
-  h2{
+}
+
+h2 {
     font-size: 40px;
     font-family: Lora;
     color: #808080;
-  }
-  h3{
+}
+
+h3 {
     font-size: 20px;
     color: white;
     text-align: center;
-  }
+}
 
-  /* Style to the top navigation bar */
-  .topnav {
+/* Style to the top navigation bar */
+
+.navigation {
     color: white;
     background: #1c1c1c;
-    top: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    padding: 10px;
-    
-  }
-  
-  /* Style to the topnav links */
-  .topnav a {
-    float: left;
+    padding: 20px;
+}
+
+/* Style to the topnav links */
+
+.navigation a {
     color: #f2f2f2;
-    display: block;
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    right: 0;
     margin-left: 80px;
     width: 150px;
-  }
-  
-  /* Change the color on hover */
-  .topnav a:hover {
+}
+
+/* Change the color on hover */
+
+.navigation a:hover {
     background-color: #6e6b6b;
     color: none;
-  }
+}
 
-  .introduce{
+.introduce {
     font-family: Inconsolata;
     font-size: 20px;
     color: white;
     text-align: center;
-    margin: 10px -90px;
-  }
-  
-  p {
-    color: #808080;
-  }
+}
 
-  .firsttext{
+.about-text {
     font-family: Inconsolata;
-    color: #808080;
     text-align: center;
-  }
+}
 
-  .content-wrap{
+.about {
     display: flex;
+    flex-wrap: wrap;
     background-color: #D3D3D3;
     padding: 20px;
-    align-items: center;
-    justify-content: center;
-  }
+}
 
-  .image-container {
+.about div {
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-  }
-
-  .about-container {
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .about-container h2 {
     text-align: center;
-  }
+}
 
-  .objective{
-    overflow: hidden;
-    padding: 70px;
-    background-color:rgba(75,98,102,1);
-  }
-  
-  .socialmedia{
-    overflow: hidden;
-    background-color: rgba(214,217,218,1);
+.about img {
+    max-width: 80%;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.objective {
+    padding: 50px;
+    background-color: rgba(75, 98, 102, 1);
+}
+
+.social {
+    background-color: rgba(214, 217, 218, 1);
     padding: 40px;
-  }
+}
 
-  .social_fb {
+.social_fb {
     width: 340px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
+/* album images */
 
-  /* album images */
-  .albumimg {
+.albumimg {
     background-color: none;
     width: 89%;
     margin-top: -100px;
     padding: 20px;
     color: white;
-    
-  }
+}
 
-  /* album Populares */
-  .albumpopulares {
-    background-color:none;
+/* album Populares */
+
+.albumpopulares {
+    background-color: none;
     width: 90%;
     margin-top: 0;
     padding: 20px;
     color: white;
-    
-  }
+}
 
-   /* image about */
-   .aboutimg {
-    margin-left: 100px;
-    margin-top: 100px;
-    padding: 20px;
-  }
-  
+/* Footer */
 
-  /* Footer */
-  .footer span {
+.footer {
     padding: 70px;
     background: #1c1c1c;
-    display: inline-block;
-    width: 100%;
     text-align: center;
     color: white;
-    text-decoration: none;
-  }
-   
-  .footer a {
-    text-decoration:none;
-    color: rgba(211,219,222,1);
-  }
+}
 
-  
-  /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
+.footer a {
+    text-decoration: none;
+    color: rgba(211, 219, 222, 1);
+}
+
+/* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
   @media screen and (max-width: 365px) {
     .col,.topnav {   
       width: 85%;
@@ -188,4 +164,3 @@
    
    }
   }*/
-  
