@@ -103,13 +103,11 @@
   }
 
   .objective{
-    overflow: hidden;
     padding: 70px;
     background-color:rgba(75,98,102,1);
   }
   
   .socialmedia{
-    overflow: hidden;
     background-color: rgba(214,217,218,1);
     padding: 40px;
   }
