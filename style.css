@@ -148,14 +148,6 @@
     height: 400px;
     margin: 50px 130px 50px;
   }
-
-  
-  @media screen and  (max-width: 800px) {
-    .aboutimg {
-    height: 200px;
-    margin: 50px 80px 50px;
-    }
-  }
   
 
   /* Footer */
@@ -176,20 +168,33 @@
 
   
   
- /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
-  @media screen (max-width: 800px) {
+ /*Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other */
 
-
+ @media screen and  (max-width: 640px) {
+  .aboutimg {
+  height: 200px;
+  margin: 50px 80px 50px;
   }
 
+  .header{
+    padding: 50px;
+    background-size: 40%;
+  }
 
-  
-  Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other 
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-   
-   }
+  .topnav{
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+  }
+
+  .workimg{
+    height: 230px;
+    width: 300px;
+    margin: 100px 30px 50px;
   }
   
+
+
+}
+ 
+ 
