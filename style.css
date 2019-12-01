@@ -177,7 +177,7 @@
 
   .header{
     padding: 50px;
-    background-size: 40%;
+    background-size: 100%;
   }
 
   .topnav{
@@ -223,8 +223,5 @@
     margin: 15px;
   }
  
-  .social_fb{
-    height: 200px;
-  }
     
   }
