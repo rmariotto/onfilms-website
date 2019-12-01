@@ -1,132 +1,109 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: Arial;
-    margin: 0px;
-  }
-  
-  /* Header/Site Title */
-  .header {
-    padding: 220px;
-    text-align: center;
+    color: #808080;
+    margin: 0;
     background-image: url(imagem/foto.jpg);
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
   }
-  
+
+  /* Header/Site Title */
+
+  .header {
+    padding: 150px 0 200px 0;
+    text-align: center;
+  }
+
   .header h1 {
     font-size: 50px;
     font-family: Lora;
     color: white;
   }
-  h2{
+
+  h2 {
     font-size: 40px;
     font-family: Lora;
     color: #808080;
-    text-align: center;
-    margin-top: 100px;
   }
-  h3{
-    font-size: 40px;
-    font-family: Lora;
-    color: #808080;
-    margin-top: 150px;
+
+  h3 {
+    font-size: 20px;
+    color: white;
     text-align: center;
   }
 
   /* Style to the top navigation bar */
-  .topnav {
+
+  .navigation {
     color: white;
     background: #1c1c1c;
-    padding: 10px;
-    width: 100%;
-    height: 60px;
-    
+    padding: 20px;
   }
-  
+
   /* Style to the topnav links */
-  .topnav a {
+
+  .navigation a {
     color: #f2f2f2;
-    display: inline-block;
+    text-align: center;
+    padding: 10px;
     text-decoration: none;
-    margin: 10px 95px;
+    margin-left: 80px;
+    width: 150px;
   }
-  
+
   /* Change the color on hover */
-  .topnav a:hover {
+
+  .navigation a:hover {
     background-color: #6e6b6b;
     color: none;
   }
 
-  .introduce{
+  .introduce {
     font-family: Inconsolata;
     font-size: 20px;
     color: white;
     text-align: center;
   }
-  
 
-  p{
-    color: #808080;
-  }
-
-  .about-text{
+  .about-text {
     font-family: Inconsolata;
-    color: #808080;
-    
+    text-align: center;
   }
 
-  .work-text{
-    font-family: Inconsolata;
-    color: #808080;
-    margin-top: 50px;
-
-  }
-
-  .content-wrap{
+  .about {
     display: flex;
-    width: 100%;
-    height: 500px;
+    flex-wrap: wrap;
     background-color: #D3D3D3;
-    background-color:none;
-    padding: 0px;
+    padding: 20px;
   }
 
-  .content-wrap > div:first-child {
-    float: left;
+  .about div {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
-  .content-wrap > div:last-child {
-    float: right;
+  .about img {
+    max-width: 80%;
   }
 
-  .work{
-    display: flex;
-    width: 100%;
-    height: 500px;
-    background-color: rgba(241,242,242,1);
-    background-color:none;
-    padding: 0px;
+  .about h2 {
+    text-align: center;
   }
 
-  .work> div:first-child {
-    float: left;
+  .objective {
+    padding: 50px;
+    background-color: rgba(75, 98, 102, 1);
   }
 
-  .work > div:last-child {
-    float: right;
-  }
-
-  .objective{
-    padding: 70px;
-    background-color:rgba(75,98,102,1);
-  }
-  
-  .socialmedia{
-    background-color: rgba(214,217,218,1);
+  .social {
+    background-color: rgba(214, 217, 218, 1);
     padding: 40px;
   }
 
@@ -136,92 +113,58 @@
     margin-right: auto;
   }
 
+  /* album images */
 
-  .workimg {
-    height: 300px;
-    margin: 100px 110px 50px
-    
+  .albumimg {
+    background-color: none;
+    width: 89%;
+    margin-top: -100px;
+    padding: 20px;
+    color: white;
   }
 
-   /* image about */
-   .aboutimg {
-    height: 400px;
-    margin: 50px 130px 50px;
+  /* album Populares */
+
+  .albumpopulares {
+    background-color: none;
+    width: 90%;
+    margin-top: 0;
+    padding: 20px;
+    color: white;
   }
-  
 
   /* Footer */
-  .footer span {
+
+  .footer {
     padding: 70px;
     background: #1c1c1c;
-    display: inline-block;
-    width: 100%;
     text-align: center;
     color: white;
-    text-decoration: none;
   }
-   
+
   .footer a {
-    text-decoration:none;
-    color: rgba(211,219,222,1);
-  }
-
-  
-  
- /*Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other */
-
- @media screen and  (max-width: 640px) {
-  .body{
-    width: 100%;
-  }
-
-  .header{
-    padding: 50px;
-    background-size: 100%;
-  }
-
-  .topnav{
-    padding: 10px;
-    text-align: center;
-    height: 200px;
-  }
-
-  .content-wrap{
-    height: 740px;
-    display: block;
-  }
-
-  .aboutimg {
-  height: 200px;
-  margin: 50px 80px 50px;
-  }
-
-  h2{
-    margin-top: 5px;
-  }
-
-  .about-text{
-    margin: 10px;
-  }
-  
-  .work{
-    height: 550px;
-    display: block;
-  }
-
-  .workimg{
-    height: 230px;
-    width: 300px;
-    margin: 30px 30px 50px;
-  }
-
-  h3{
-    margin: 0px;
+    text-decoration: none;
+    color: rgba(211, 219, 222, 1);
   }
 
   .work-text{
     margin: 15px;
   }
- 
-    
+
+  /* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
+  @media screen and (max-width: 365px) {
+    .col,.topnav {   
+      width: 85%;
+      padding: 0;
+      
+    }
   }
+
+  /* Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other 
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+  
+  }
+  }*/
