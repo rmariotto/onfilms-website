@@ -171,9 +171,8 @@
  /*Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other */
 
  @media screen and  (max-width: 640px) {
-  .aboutimg {
-  height: 200px;
-  margin: 50px 80px 50px;
+  .body{
+    width: 100%;
   }
 
   .header{
@@ -187,14 +186,45 @@
     height: 200px;
   }
 
+  .content-wrap{
+    height: 740px;
+    display: block;
+  }
+
+  .aboutimg {
+  height: 200px;
+  margin: 50px 80px 50px;
+  }
+
+  h2{
+    margin-top: 5px;
+  }
+
+  .about-text{
+    margin: 10px;
+  }
+  
+  .work{
+    height: 550px;
+    display: block;
+  }
+
   .workimg{
     height: 230px;
     width: 300px;
-    margin: 100px 30px 50px;
+    margin: 30px 30px 50px;
   }
-  
 
+  h3{
+    margin: 0px;
+  }
 
-}
+  .work-text{
+    margin: 15px;
+  }
  
- 
+  .social_fb{
+    height: 200px;
+  }
+    
+  }
