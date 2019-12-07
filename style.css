@@ -58,8 +58,7 @@ h3 {
 /* Change the color on hover */
 
 .navigation a:hover {
-  background-color: #6e6b6b;
-  color: none;
+  color: rgba(84,93,92,1) ;
 }
 
 
