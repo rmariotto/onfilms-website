@@ -10,12 +10,13 @@
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
+    overflow-x:hidden;
   }
 
   /* Header/Site Title */
 
   .header {
-    padding: 150px 0 200px 0;
+    padding: 240px 0 200px 0;
     text-align: center;
   }
 
@@ -42,18 +43,16 @@
   .navigation {
     color: white;
     background: #1c1c1c;
-    padding: 20px;
+    padding: 25px;
+    text-align: center;
   }
 
   /* Style to the topnav links */
 
   .navigation a {
     color: #f2f2f2;
-    text-align: center;
-    padding: 10px;
+    padding-right: 50px;
     text-decoration: none;
-    margin-left: 80px;
-    width: 150px;
   }
 
   /* Change the color on hover */
@@ -90,7 +89,7 @@
   }
 
   .about img {
-    max-width: 80%;
+    max-width: 60%;
   }
 
   .about h2 {
