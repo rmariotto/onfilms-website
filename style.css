@@ -84,6 +84,7 @@ h3 {
 
 .about img {
   max-width: 55%;
+  border-radius: 8px;
 }
 
 .about h2 {
@@ -119,6 +120,7 @@ h3 {
   
 .work img {
    max-width: 55%;
+   border-radius: 8px;
   }
 
 .work-text{
