@@ -107,7 +107,7 @@ h3 {
 .work{
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(188,194,193,1);
+  background-color: whitesmoke;
   padding: 20px;
 }
   
@@ -139,6 +139,19 @@ h3 {
   margin-right: auto;
 }
 
+.albun-container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(188,194,193,1);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.albun-container img {
+  max-width: 25%;
+}
+
 /* Footer */
 
 .footer {
@@ -152,6 +165,7 @@ h3 {
   text-decoration: none;
   color: rgba(211, 219, 222, 1);
 }
+
 
 
 
