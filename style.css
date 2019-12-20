@@ -33,11 +33,16 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 40px;
   color: rgba(84,93,92,1);
   text-align: center;
 }
 
+h4 {
+  font-size: 40px;
+  color: rgb(233, 241, 240);
+  text-align: center;
+}
 /* Style to the top navigation bar */
 
 .navigation {
@@ -139,24 +144,30 @@ h3 {
   margin-right: auto;
 }
 
-.albun-container{
+.gallery{
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(188,194,193,1);
+  background-color: rgba(12,13,13,1);
   padding: 20px;
   align-items: center;
   justify-content: center;
 }
 
-.albun-container img {
-  max-width: 25%;
+.gallery img {
+  transition: 1s;
+  width: 245px;
+
 }
 
+.gallery img:hover{
+ filter: grayscale(100%);
+ transform: scale(1.1);
+}
 /* Footer */
 
 .footer {
-  padding: 70px;
-  background: #1c1c1c;
+  padding: 30px;
+  background: rgba(75,102,98,1);
   text-align: center;
   color: white;
 }
