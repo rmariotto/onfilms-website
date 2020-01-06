@@ -34,7 +34,7 @@ h2 {
 
 h3 {
   font-size: 40px;
-  color: rgba(84,93,92,1);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -76,7 +76,7 @@ h4 {
 .about {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(188,194,193,1);
+  background-color: rgb(239, 241, 241);
   padding: 20px;
 }
 
@@ -99,7 +99,7 @@ h4 {
 
 .objective {
   padding: 50px;
-  background-color: rgba(75, 98, 102, 1);
+  background-color: rgb(91, 92, 92);
 }
 
 .objective-text{
@@ -112,7 +112,7 @@ h4 {
 .work{
   display: flex;
   flex-wrap: wrap;
-  background-color: whitesmoke;
+  background-color: black;
   padding: 20px;
 }
   
@@ -130,11 +130,11 @@ h4 {
 
 .work-text{
   margin: 15px;
-  color:rgba(84,93,92,1);
+  color:rgb(255, 255, 255);
 }
 
 .social {
-  background-color: rgba(214, 217, 218, 1);
+  background-color: rgb(255, 255, 255);
   padding: 40px;
 }
 
@@ -167,7 +167,7 @@ h4 {
 
 .footer {
   padding: 30px;
-  background: rgba(75,102,98,1);
+  background: rgb(91, 92, 92);
   text-align: center;
   color: white;
 }
