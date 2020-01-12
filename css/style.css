@@ -183,13 +183,13 @@ h4 {
 
 
 
-/* Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
+Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
 @media screen and (max-width: 365px) {
   .col,.topnav {   
     width: 85%;
     padding: 0;
-    
   }
+  
 }
 /* Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other 
 @media screen and (max-width: 400px) {
