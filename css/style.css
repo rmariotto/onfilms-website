@@ -29,7 +29,7 @@ body {
 h2 {
   font-size: 40px;
   font-family: Lora;
-  color: rgba(84,93,92,1);
+  color: rgb(229, 231, 231);
 }
 
 h3 {
@@ -47,7 +47,7 @@ h4 {
 
 .navigation {
   color: white;
-  background: #1c1c1c;
+  font-size: 20px;
   padding: 25px;
   text-align: center;
 }
@@ -70,13 +70,14 @@ h4 {
 .about-text {
   font-family: Inconsolata;
   text-align: center;
-  color: rgba(84,93,92,1);
+  color: rgb(229, 231, 231);
 }
 
 .about {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(239, 241, 241);
+  height: 640px;
+  background-color: rgb(12, 12, 12);
   padding: 20px;
 }
 
@@ -89,7 +90,9 @@ h4 {
 
 .about img {
   max-width: 55%;
+  margin-top: 10px;
   border-radius: 8px;
+  text-align: center;
 }
 
 .about h2 {
@@ -170,7 +173,7 @@ h4 {
 
 .footer {
   padding: 30px;
-  background: rgb(91, 92, 92);
+  background: rgba(12,13,13,1);
   text-align: center;
   color: white;
 }
