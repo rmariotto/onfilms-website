@@ -39,7 +39,7 @@ h3 {
 }
 
 h4 {
-  font-size: 40px;
+  font-size: 30px;
   color: rgb(233, 241, 240);
   text-align: center;
 }
@@ -51,6 +51,7 @@ h4 {
   padding: 25px;
   text-align: center;
 }
+
 
 /* Style to the topnav links */
 
@@ -65,6 +66,27 @@ h4 {
 .navigation a:hover {
   color: rgba(84,93,92,1) ;
 }
+
+.navigation-info {
+  color: white;
+  font-size: 20px;
+  padding: 25px;
+  text-align: center;
+  background-color: rgb(12, 12, 12);
+}
+
+.navigation-info a {
+  color: #f2f2f2;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+/* Change the color on hover */
+
+.navigation-info a:hover {
+  color: rgba(84,93,92,1) ;
+}
+
 
 
 .about-text {
@@ -97,7 +119,7 @@ h4 {
 
 .about h2 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .objective {
