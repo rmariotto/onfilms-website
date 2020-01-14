@@ -206,21 +206,22 @@ h4 {
 }
 
 
+/* Responsive - */ 
 
+@media screen and (max-width: 640px) {
 
-Responsive - screen less than 800px wide, making the two columns stack on top of each other instead of next to each other 
-@media screen and (max-width: 365px) {
-  .col,.topnav {   
-    width: 85%;
-    padding: 0;
-  }
+  .body {
+  background-size: 250%;
+}
   
+  .header {
+  padding:80px;
 }
-/* Responsive - screen is less than 400px wide, making the navigation links stack on top of each other instead of next to each other 
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
+
+  .navigation a {
+
+  font-size: 40px;
+  color: brown;
+
 
 }
-}*/
