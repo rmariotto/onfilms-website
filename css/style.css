@@ -212,6 +212,7 @@ h4 {
 
   .body {
   background-size: 250%;
+  overflow-y:hidden;
 }
   
   .header {
