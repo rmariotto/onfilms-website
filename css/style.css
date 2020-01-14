@@ -68,6 +68,8 @@ h4 {
 }
 
 .navigation-info {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
   color: white;
   font-size: 20px;
   padding: 25px;
@@ -159,7 +161,7 @@ h4 {
 }
 
 .social {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(12,13,13,1);
   padding: 40px;
 }
 
@@ -170,6 +172,9 @@ h4 {
 }
 
 .gallery{
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(12,13,13,1);
