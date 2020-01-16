@@ -9,7 +9,7 @@ body {
   background-image: url("../imagem/z-cover.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   overflow-x:hidden;
 }
 
@@ -190,8 +190,8 @@ h4 {
 }
 
 .gallery img:hover{
- filter: grayscale(100%);
- transform: scale(1.1);
+  filter: grayscale(100%);
+  transform: scale(1.1);
 }
 
 
@@ -215,21 +215,53 @@ h4 {
 
 @media screen and (max-width: 400px) {
 
-  .body {
+.body {
   height: 645px;
+  background-position: center center;
 }
   
-  .header {
+.header {
   padding:70px;
 }
 
-  .navigation a {
-
+.navigation a {
+  padding: 10px 0;  
   font-size: 40px;
-  color: brown;
+  display: flex;
+  flex-direction: column;
 }
-  .gallery img {
-    flex: 50%;
+
+.navigation-info{
+ width: 380px;
+ display: flex;
+ flex-direction: column;
+}
+
+.social, .footer{
+  width: 380px;
+}
+
+.gallery{
+  padding: 60px;
+  width: 380px;
+}
+
+.gallery img {
+  flex: 50%;
   
-  }
+}
+
+}
+
+@media screen and (min-width: 425px) {
+
+.navigation-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery{
+padding: 80px;
+}
+
 }
