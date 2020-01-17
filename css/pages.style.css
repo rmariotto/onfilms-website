@@ -215,8 +215,9 @@ button {
         
     @media screen and (max-width: 320px) {
 
-   .form{
+    .form-wrap{
       padding: 5px;
+      margin: 10px auto auto 50px
 
     }
         
