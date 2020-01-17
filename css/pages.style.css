@@ -63,12 +63,16 @@ h2 {
   }
   
 
-.social {display: flex;
-  flex-wrap: wrap;
-    padding: 30px;
-    background-color: rgb(12, 12, 12);
-  }
+.social-fb {
+  float: right;
+  margin: 10px 50px 0 0;
+}
   
+.social-insta{
+  float: right;
+  margin: 0 20px;
+} 
+ 
 
 .gallery { 
     border-bottom-style: solid;
