@@ -63,18 +63,13 @@ h2 {
   }
   
 
-.social {
-    padding: 50px;
-    height: 300px;
+.social {display: flex;
+  flex-wrap: wrap;
+    padding: 30px;
     background-color: rgb(12, 12, 12);
   }
   
-.social_fb {
-    width: 340px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
+
 .gallery { 
     border-bottom-style: solid;
     border-bottom-width: thin;
@@ -157,9 +152,8 @@ button {
   }
   
 .form-wrap{
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-    color: white;
+    margin-top: 20px;
+    color: aliceblue;
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(12,13,13,1);
@@ -204,13 +198,22 @@ button {
     }
     @media screen and (max-width: 425px) {
 
-        .navigation-info{
-          display: flex;
-          flex-direction: column;
-        }
+    .navigation-info{
+       display: flex;
+       flex-direction: column;
+    }
         
-        .gallery{
-        padding: 80px;
-        }
+    .gallery{
+      padding: 80px;
+    }
         
-        }
+    }
+        
+    @media screen and (max-width: 320px) {
+
+   .form{
+      padding: 5px;
+
+    }
+        
+  }
