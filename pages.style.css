@@ -169,22 +169,17 @@ button {
     border-bottom-style: solid;
     border-bottom-width: thin;
     color: white;
-    display: flex;
-    flex-wrap: wrap;
     background-color: rgba(12,13,13,1);
-    padding: 20px;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
   }
 
   /* Responsive - */ 
 
 @media screen and (max-width: 400px) {
 
-    .body {
-      background-position: center center;
-      max-width: 320px;
-    }
       
     .header {
       padding:70px;
