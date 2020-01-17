@@ -40,14 +40,14 @@ h4 {
   color: rgb(229, 231, 231);
   text-align: center;
   margin-top: 15px;
-}
+ }
 
 .contact-text{
   font-family: Inconsolata;
   font-size: 20px;
   text-align: center;
   color: rgb(229, 231, 231);
-}
+ }
 
 
 .about-text {
@@ -81,12 +81,12 @@ h4 {
 .social-fb {
   float: right;
   margin: 10px 50px 0 0;
-}
+ }
   
 .social-insta{
   float: right;
   margin: 0 20px;
-} 
+ } 
  
 
 .gallery { 
@@ -185,55 +185,62 @@ button {
 
 @media screen and (max-width: 400px) {
 
-    .body {
-      background-position: center center;
-    }
+  .body {
+    background-position: center center;
+  }
       
-    .header {
-      padding:70px;
-    }
+  .header {
+    padding:70px;
+  }
     
     
-    .navigation-info{
-     width: 380px;
-     display: flex;
-     flex-direction: column;
-    }
+  .navigation-info{
+   width: 380px;
+   display: flex;
+   flex-direction: column;
+  }
     
-    .about, .footer{
-      width: 380px;
-    }
+  .about, .footer{
+    width: 380px;
+  }
     
-    .gallery{
-      padding: 60px;
-      width: 380px;
-    }
+  .gallery{
+    padding: 60px;
+    width: 380px;
+  }
     
-    .gallery img {
-      flex: 50%;
+  .gallery img {
+    flex: 50%;
       
-    }
+  }
     
-    }
-    @media screen and (max-width: 425px) {
+  }
+  @media screen and (max-width: 425px) {
 
-    .navigation-info{
-       display: flex;
-       flex-direction: column;
-    }
+  .navigation-info{
+    display: flex;
+    flex-direction: column;
+  }
         
-    .gallery{
-      padding: 80px;
-    }
+  .gallery{
+    padding: 80px;
+  }
         
-    }
+  }
         
-    @media screen and (max-width: 320px) {
+  @media screen and (max-width: 320px) {
 
-    .form-wrap{
-      padding: 5px;
-      margin: 10px auto auto 50px
+  .form-wrap{
+    padding: 5px;
+    margin: 10px auto auto 50px
+  }
 
-    }
-        
+  .contact-text{
+    margin-left: 40px;
+  }
+
+  h4 {
+    margin-left: 20px;
+  }
+
   }
