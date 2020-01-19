@@ -193,6 +193,10 @@ button {
     padding:70px;
   }
     
+  h3{
+    padding: 7px;
+    margin: 0 50px 0 10px;
+  }
     
   .navigation-info{
    width: 380px;
@@ -200,19 +204,14 @@ button {
    flex-direction: column;
   }
     
-  .about, .footer{
-    width: 380px;
-  }
-    
-  .gallery{
-    padding: 60px;
-    width: 380px;
-  }
     
   .gallery img {
     flex: 50%;
       
   }
+  .social-fb{
+  margin:10px 130px 0 0;;
+ }
     
   }
   @media screen and (max-width: 425px) {
@@ -223,7 +222,7 @@ button {
   }
         
   .gallery{
-    padding: 80px;
+    padding: 40px;
   }
         
   }
@@ -241,6 +240,14 @@ button {
 
   h4 {
     margin-left: 0px;
+  }
+
+  .social-fb{
+  margin: 10px 80px 0 0;
+  }
+
+  .contact-text {
+    margin-left: 30px;
   }
 
   }
