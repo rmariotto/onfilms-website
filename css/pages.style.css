@@ -3,47 +3,47 @@
   }
 
 body {
-    font-family: Arial;
-    background-color: rgb(12, 12, 12);
-    margin: 0;
-    overflow-x:hidden;
+  font-family: "Lora", "serif";
+  background-color: rgb(12, 12, 12);
+  margin: 0;
+  overflow-x:hidden;
   }  
 
 .navigation-info {
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-    color: white;
-    font-size: 20px;
-    padding: 25px;
-    text-align: center;
-    background-color: rgb(12, 12, 12);
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  color: white;
+  font-size: 20px;
+  padding: 25px;
+  text-align: center;
+  background-color: rgb(12, 12, 12);
   }
   
 .navigation-info a {
-    color: #f2f2f2;
-    padding-right: 50px;
-    text-decoration: none;
+  color: #f2f2f2;
+  padding-right: 50px;
+  text-decoration: none;
   }
 
 
 h2 {
-    font-size: 40px;
-    font-family: Lora;
-    color: rgb(229, 231, 231);
-    text-align: center;
-    margin-top: 10px;
+  font-size: 40px;
+  font-family: "Lora", "serif";
+  color: rgb(229, 231, 231);
+  text-align: center;
+  margin-top: 10px;
   }
 
 h4 {
   font-size: 40px;
-  font-family: Lora;
+  font-family: "Lora", "serif";
   color: rgb(229, 231, 231);
   text-align: center;
   margin-top: 15px;
  }
 
 .contact-text{
-  font-family: Inconsolata;
+  font-family: "Lora", "serif";
   font-size: 20px;
   text-align: center;
   color: rgb(229, 231, 231);
@@ -51,30 +51,30 @@ h4 {
 
 
 .about-text {
-    font-family: Inconsolata;
-    text-align: center;
-    color: rgb(229, 231, 231);
+  font-family: "Lora", "serif";
+  text-align: center;
+  color: rgb(229, 231, 231);
   }
   
 .about {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(12, 12, 12);
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(12, 12, 12);
+  padding: 20px;
   }
   
 .about div {
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   }
   
 .about img {
-    max-width: 55%;
-    margin-top: 10px;
-    border-radius: 8px;
-    text-align: center;
+  max-width: 55%;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: center;
   }
   
 
@@ -90,95 +90,95 @@ h4 {
  
 
 .gallery { 
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgba(12,13,13,1);
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(12,13,13,1);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
   }
   
 .gallery img {
-    transition: 1s;
-    width: 245px;
+  transition: 1s;
+  width: 245px;
   
   }
   
 .gallery img:hover{
-    filter: grayscale(100%);
-    transform: scale(1.1);
+  filter: grayscale(100%);
+  transform: scale(1.1);
   }
   
   
 .footer {
-    padding: 30px;
-    background: rgba(12,13,13,1);
-    text-align: center;
-    color: white;
+  padding: 30px;
+  background: rgba(12,13,13,1);
+  text-align: center;
+  color: white;
   }
   
 .footer a {
-    text-decoration: none;
-    color: rgba(211, 219, 222, 1);
+  text-decoration: none;
+  color: rgba(211, 219, 222, 1);
   }
   
   
 form {
-    margin: 0 auto;
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
   }
   
 form div + div {
-    margin-top: 1em;
+  margin-top: 1em;
   }
   
 label {
-    display: inline-block;
-    width: 90px;
-    text-align: right;
+  display: inline-block;
+  width: 90px;
+  text-align: right;
   }
 input, textarea {
     
-    font: 1em sans-serif;
-    width: 300px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid #999;
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
   }
 
 input:focus, textarea:focus {
     
-    border-color: #000;
+  border-color: #000;
   }
 
 textarea {
-    vertical-align: top;
-    height: 5em;
-    resize: vertical;
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
   }
 
 .button {
-    padding-left: 90px;
+  padding-left: 90px;
   }
 
 button {
-    margin-left: .5em;
+  margin-left: .5em;
   }
   
 .form-wrap{
-    margin-top: 20px;
-    color: aliceblue;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgba(12,13,13,1);
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
+  margin-top: 20px;
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(12,13,13,1);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
   }
 
   /* Responsive - */ 

@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: 'Lora', serif;
   color: #808080;
   margin: 0;
   background-image: url("../imagem/z-cover.jpg");
@@ -22,7 +22,7 @@ body {
 
 .header h1 {
   font-size: 50px;
-  font-family: Lora;
+  font-family: "Lora", "serif";
   color: white;
 }
 
